@@ -230,3 +230,15 @@
 
 
 }());
+
+
+function abrirWhatsApp() {
+	var telefono = '3111416527';
+	var mensaje = '¡Feliz cumpleaños! 🎉🎂🎈';
+
+	// Construir el enlace para abrir WhatsApp
+	var enlaceWhatsApp = 'whatsapp://send?phone=' + telefono + '&text=' + encodeURIComponent(mensaje);
+
+	// Abrir WhatsApp en una nueva ventana
+	window.open(enlaceWhatsApp);
+  }
