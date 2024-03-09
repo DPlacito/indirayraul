@@ -1204,6 +1204,10 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 
+#fh5co-testimonial {
+  background-color: ghostwhite;
+}
+
 #fh5co-testimonial .wrap-testimony {
   position: relative;
 }
@@ -1409,19 +1413,6 @@ form label {
   display: block;
 }
 
-.owl-carousel .owl-controls .owl-dot span {
-  background: #e6e6e6;
-}
-.owl-carousel .owl-controls .owl-dot span:hover, .owl-carousel .owl-controls .owl-dot span:focus {
-  background: #cccccc;
-}
-.owl-carousel .owl-controls .owl-dot:hover span, .owl-carousel .owl-controls .owl-dot:focus span {
-  background: #cccccc;
-}
-.owl-carousel .owl-controls .owl-dot.active span {
-  background: transparent;
-  border: 2px solid #F14E95;
-}
 
 #fh5co-offcanvas {
   position: absolute;
@@ -1528,7 +1519,7 @@ form label {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  background: #4cae4c;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
